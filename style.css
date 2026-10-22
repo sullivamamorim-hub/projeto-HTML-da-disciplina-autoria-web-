@@ -57,7 +57,7 @@ td {
 
 th {
     background-color: #38bdf8;
-    color: #0f172a;
+    color: #1c4ab6;
 }
 
 p {
@@ -68,4 +68,15 @@ p {
 
     border-radius: 14px;
 
+}
+
+@media screen and (max-width:800px) {
+    .budy {
+        min-height: 200vh;
+        width: 200%;
+        margin: 0%;
+        border: 0;
+        box-sizing: border-box;
+        padding: 30px;
+    }
 }
